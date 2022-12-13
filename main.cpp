@@ -3,9 +3,7 @@
 using namespace std;
 
 double my_pow(double result, int numpow) {
-	double temp = result;
-	for (int i = 1; i < numpow; i++) result *= temp;
-	return result;
+	return pow(result, numpow);
 }
 
 int main() {
